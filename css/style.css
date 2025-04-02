@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 /******* Bootstrap Theming ********/
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
@@ -35,6 +36,14 @@
   --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+.julius-sans-one-regular {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 
 *,
 *::before,

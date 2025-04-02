@@ -22,11 +22,15 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+    <!-- Animate css para las animaciones -->
+     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+<body data-spy="scroll"  data-offset="51">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-1 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand d-block d-lg-none text-center">
@@ -39,7 +43,7 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
             <div class="navbar-nav ml-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Inicio</a>
-                <a href="#about" class="nav-item nav-link">Acerca de</a>
+                <a href="#about" class="nav-item nav-link">Nosotros</a>
                 <a href="#service" class="nav-item nav-link">Servicios</a>
                 <a href="#project" class="nav-item nav-link">Proyectos</a>
             </div>
@@ -59,55 +63,56 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5 pb-5" id="home">
+    <div class="container-fluid p-0 " id="home">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 
                 
                 <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/plastimega.jpg" >
+                    <img class="position-absolute w-100 h-100" src="img/fondo_plasti.jpg" >
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="row justify-content-center" >
                 
-                            <div class="col-2 text-center py-5">
+                            <div class="col-sm-12 col-md-10 col-lg-10 text-center my-5">
                                 <!-- <h2 class="text-white text-uppercase mb-4" style="letter-spacing: 8px;">PlastiMega</h2> -->
-                                 <img src="img/logo.png" class="img-fluid" alt="">
+                                 <img src="img/logo.png" class="img-fluid animate__animated animate__bounce" alt="">
                             </div>
-                            <div class="col-12 text-center">
-                                <h1 class="display-1 font-secondary text-white mb-4" style="font-size: 7vw;">
-                                    Cajas Plasticas Industriales
+
+                            <!-- <div class="col-12 text-center">
+                                <h1 class="display-1 font-secondary text-uppercase text-white mb-4" style="font-size: 4vw;">
+                                    Cajas Plasticas Agricolas
                                 </h1>
-                            </div>
-                            <div class="col-2 text-center">
-                                <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Contáctanos</a>
-                            </div>
+                            </div> -->
 
-
-                            <div class="col-12 mt-5">
-                                <div class="row">
-                                    <div class="col-6 px-5">
-                                        <img src="img/BANNER1.png" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="col-6 px-5">
-                                        <img src="img/BANNER2.png" class="img-fluid" alt="">
+                            <!-- <div class="col-12 text-center mt-4">
+                                <div class="row justify-content-center">
+                                    <div class="col-4 my-2">
+                                        <a class="btn btn-light font-weight-bold btn-rounded py-3 px-5 mt-2 btn-scroll" href="#contact">
+                                            Contácto
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
-
+                            </div> -->
 
                         </div>
                     </div>
                 </div>
                 
                 <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/plastimega.jpg" style="object-fit: cover;">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Somos Fabricantes</h4>
-                            <h3 class="font-secondary text-white mb-4" style="font-size: 5vw;" >Elaboradas con los mejores materiales. </h3>
-                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Get A Quote</a>
+                    <img class="position-absolute w-100 h-100" src="img/cosecha.jpg" style="object-fit: cover;">
+
+                    <div class="carousel-caption d-flex  flex-column align-items-center justify-content-center">
+
+                        <div class="p-3" ">
+                            <!-- <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Somos Fabricantes</h4> -->
+                            <h3 class="font-secondary text-white mb-4 julius-sans-one-regular" style="font-size: 5vw;" >PROTEGE TU COSECHA CON LAS MEJORES CAJAS. </h3>
+<!-- 
+                            <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Get A Quote</a> -->
+
                         </div>
+
                     </div>
+                    
                 </div>
                 
                 
@@ -132,13 +137,13 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <img class="img-fluid mb-4 mb-lg-0" src="img/about.jpg" alt="">
+                    <img class="img-fluid mb-4 mb-lg-0" src="img/plastimega.jpg" alt="">
                 </div>
                 <div class="col-lg-7">
-                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About Us</h6>
-                    <h1 class="display-4 mb-3"><span class="text-primary">25+ Years Experience</span> In Solar Power Industry</h1>
-                    <p>At sed est eirmod sanctus et amet diam magna. Dolore clita magna sed sed stet et, at magna rebum eirmod sanctus ut sed, stet tempor dolore rebum sit duo, dolore tempor sit est sit sanctus, sit justo sit invidunt clita ut justo diam magna. Erat eos nonumy labore dolor. Dolore kasd no et et et elitr. Erat sea dolor elitr diam sed lorem rebum et vero. </p>
-                    <a class="btn btn-primary font-weight-bold py-3 px-5 mt-2" type="button" data-toggle="modal" data-target="#exampleModalLong">Read More</a>
+                    <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Acerca de: </h6>
+                    <h1 class="display-4 mb-3"><span class="text-dark">24+ Años de experiencia</span> En la industria</h1>
+                    <p>Somos una empresa 100% mexicana dedicada a la fabricación y comercialización de empaques de plástico. Fundada por Corporativo Promega en el año 2001, en la zona de Uruapan, Michoacán. <br>Actualmente PLASTIMEGA, cuenta con dos plantas en la República Mexicana una ubicada en Uruapan Michoacán, y otra en Cuapiaxtla de Madero, Puebla. </p>
+                    <a class="btn btn-dark font-weight-bold py-3 px-5 mt-2" type="button" data-toggle="modal" data-target="#exampleModalLong">Read More</a>
                 </div>
             </div>
         </div>
