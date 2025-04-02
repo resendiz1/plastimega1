@@ -6,6 +6,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -36,6 +39,19 @@
   --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+
+.form-check-input:nth-child(1) { accent-color: #00336A; }
+.form-check-input:nth-child(2) { accent-color: #18887C; }
+.form-check-input:nth-child(3) { accent-color: #CF3117; }
+.form-check-input:nth-child(4) { accent-color: #42697B; }
+.form-check-input:nth-child(5) { accent-color: #239B92; }
+.form-check-input:nth-child(6) { accent-color: #795938; }
+.form-check-input:nth-child(7) { accent-color: #CB9C0F; }
+
+
+
+
 
 .julius-sans-one-regular {
   font-family: "Julius Sans One", sans-serif;

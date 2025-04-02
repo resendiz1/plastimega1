@@ -112,3 +112,9 @@
     
 })(jQuery);
 
+
+//Colores de las cajas
+function cambiarImagen(num){
+    document.getElementById('cajaImg').src = `img/cajas/${num}.png`;
+}
+
