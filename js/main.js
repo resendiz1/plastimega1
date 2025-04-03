@@ -132,11 +132,16 @@ window.onload = function(){
 
 function enviarCorreo(){
 
-        //Funcion para enviar correos electronicos
+    //Funcion para enviar correos electronicos
     let $remitente = document.getElementById('remitente').value;
     let $asunto = document.getElementById('asunto').value;
     let $mensaje = document.getElementById('mensaje').value;
     let $correo = document.getElementById('correo').value;
+
+if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
+
+    
+
 
     let params = {
         to_name: "PLASTIMEX",
@@ -163,6 +168,13 @@ function enviarCorreo(){
         }
     
     )
+
+  }
+  
+  else{
+    alert('Se tienen que llenar todos los campos');
+  }
+
 }
 
 
