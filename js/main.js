@@ -115,6 +115,82 @@
 
 //Colores de las cajas
 function cambiarImagen(num){
-    document.getElementById('cajaImg').src = `img/cajas/${num}.png`;
+    document.getElementById('cajasImg').src = `img/cajas/${num}.png`;
 }
+
+
+
+window.onload = function(){
+    emailjs.init("mvA2hTi9RX5iDG6Ry");
+}
+
+
+
+
+
+
+
+function enviarCorreo(){
+
+        //Funcion para enviar correos electronicos
+    let $remitente = document.getElementById('remitente').value;
+    let $asunto = document.getElementById('asunto').value;
+    let $mensaje = document.getElementById('mensaje').value;
+    let $correo = document.getElementById('correo').value;
+
+    let params = {
+        to_name: "PLASTIMEX",
+        from_name: $remitente,
+        message: $mensaje,
+        email: $correo,
+        subject: $asunto 
+    };
+
+
+    emailjs.send("service_19kp3gr", "template_9mc060d", params)
+        .then(response => {
+
+            $remitente = '';
+            $asunto = '';
+            $mensaje = '';
+            $correo = '';
+
+            alert('Se envio correctamente el correo');
+
+
+        }, error => {
+            alert('error al enviar', error)
+        }
+    
+    )
+}
+
+
+//Funcion para enviar correos electronicos
+
+
+
+
+
+// video en el carousel
+document.addEventListener("DOMContentLoaded", function () {
+
+    const video = document.getElementById("videoItem");
+    const btnToggleSound = document.getElementById("toggleSoundBtn");
+
+    btnToggleSound.addEventListener("click",  (e) => {
+        e.stopImmediatePropagation();
+        e.preventDefault();
+        if (video.muted) {
+            video.muted = false;
+            btnToggleSound.textContent = "🔊"; // Cambia a icono de sonido activado
+        } else {
+            video.muted = true;
+            btnToggleSound.textContent = "🔇"; // Cambia a icono de silencio
+        }
+    });
+});
+// video en el carousel
+
+
 

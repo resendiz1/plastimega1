@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -27,6 +27,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
 </head>
 
 
@@ -44,15 +45,15 @@
             <div class="navbar-nav ml-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Inicio</a>
                 <a href="#about" class="nav-item nav-link">Nosotros</a>
-                <a href="#service" class="nav-item nav-link">Servicios</a>
-                <a href="#project" class="nav-item nav-link">Proyectos</a>
+                <a href="#service" class="nav-item nav-link">Productos</a>
+                <a href="#project" class="nav-item nav-link">Colaboradores</a>
             </div>
             <a href="index.html" class="navbar-brand px-4 mx-3 d-none d-lg-block text-center">
                 <!-- <h1 class="display-4 text-white text-uppercase m-0">Solar</h1> -->
                 <img src="img/logo.png" class="img-fluid w-50" alt="">
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="#team" class="nav-item nav-link">Aquipo</a>
+                <a href="#team" class="nav-item nav-link">Instalaciones</a>
                 <a href="#faqs" class="nav-item nav-link">FAQs</a>
                 <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
@@ -64,16 +65,16 @@
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 " id="home">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel" data-bs-ride="carousel" >
             <div class="carousel-inner">
                 
                 
                 <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/fondo_plasti.jpg" >
+                    <img class="position-absolute w-100 h-100" src="img/fondo_plasti.jpg"style="object-fit: cover;" >
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="row justify-content-center" >
                 
-                            <div class="col-sm-12 col-md-10 col-lg-10 text-center my-5">
+                            <div class="col-sm-12 col-md-10 col-lg-8 text-center my-5">
                                 <!-- <h2 class="text-white text-uppercase mb-4" style="letter-spacing: 8px;">PlastiMega</h2> -->
                                  <img src="img/logo.png" class="img-fluid animate__animated animate__bounce" alt="">
                             </div>
@@ -99,13 +100,14 @@
                 </div>
                 
                 <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/cosecha.jpg" style="object-fit: cover;">
+                    <!-- <img class="position-absolute w-100 h-100" src="img/cosecha.jpg" style="object-fit: cover;"> -->
+                    <video src="http://plastimega.com.mx/public/img/certificado_ISO%209001.mp4"  class="position-absolute w-100 h-100" style="object-fit: cover;" autoplay muted></video>
 
                     <div class="carousel-caption d-flex  flex-column align-items-center justify-content-center">
 
                         <div class="p-3" ">
                             <!-- <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Somos Fabricantes</h4> -->
-                            <h3 class="font-secondary text-white mb-4 julius-sans-one-regular" style="font-size: 5vw;" >PROTEGE TU COSECHA CON LAS MEJORES CAJAS. </h3>
+                            <!-- <h3 class="font-secondary text-white mb-4 julius-sans-one-regular" style="font-size: 5vw;" >PROTEGE TU COSECHA CON LAS MEJORES CAJAS. </h3> -->
 <!-- 
                             <a class="btn btn-light font-weight-bold py-3 px-5 mt-2 btn-scroll" href="#contact">Get A Quote</a> -->
 
@@ -215,7 +217,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img text-center">
-                            <img class="img-fluid" src="img/cajas_front/3.png" alt="">
+                            <img class="img-fluid" src="img/cajas_front/4.png" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#reyes_23kg">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -249,7 +251,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
                     <div class="product-item mb-2">
                         <div class="product-img text-center">
-                            <img class="img-fluid" src="img/cajas_front/5.png" alt="">
+                            <img class="img-fluid" src="img/cajas_front/6.png" alt="">
                             <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#miguel_negrete_deshechable">
                                 <i class="fa fa-2x fa-plus text-white"></i>
                             </a>
@@ -261,30 +263,6 @@
                         </div>
                     </div>
                 </div>
-
-                
-                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
-                    <div class="product-item mb-2">
-                        <div class="product-img text-center">
-                            <img class="img-fluid" src="img/cajas_front/5.png" alt="">
-                            <a type="button" class="btn btn-primary" data-toggle="modal" data-target="#caja_puebla_2">
-                                <i class="fa fa-2x fa-plus text-white"></i>
-                            </a>
-                        </div>
-                        <div class="bg-secondary p-4">
-                            <h3 class="m-0 text-center">Caja 20 KG</h3>
-                            <h4 class=" text-center">Puebla 2 - Deshechable</h4>
-                            <p><b class="text-dark">Observaciones: </b> <br>Caja elaborada con plástico polipropileno en presentación pelletizado y molido pos-industrial.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-
             </div>
         </div>
     </div>
@@ -294,19 +272,20 @@
     <!-- Gallery Start -->
     <div class="container-fluid bg-gallery" id="project" style="padding: 120px 0; margin: 90px 0;">
         <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Project</h6>
-            <h1 class="font-secondary display-4 text-white">Project Photo Gallery</h1>
+            <h4 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Nuestras Instalaciones</h4>
+            <h1 class="font-secondary display-4 text-white">Nuestra</h1>
         </div>
-        <div class="owl-carousel gallery-carousel">
+
+        <!-- <div class="owl-carousel gallery-carousel">
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
-                <a class="btn btn-primary" href="img/gallery-1.jpg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="img/fondo.png" alt="">
+                <a class="btn btn-primary" href="img/fondo.png" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
             <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
-                <a class="btn btn-primary" href="img/gallery-2.jpg" data-lightbox="gallery">
+                <img class="img-fluid w-100" src="img/plastimega.jpg" alt="">
+                <a class="btn btn-primary" href="img/plastimega.jpg" data-lightbox="gallery">
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
@@ -334,7 +313,8 @@
                     <i class="fa fa-2x fa-plus text-white"></i>
                 </a>
             </div>
-        </div>
+        </div> -->
+
     </div>
     <!-- Gallery End -->
 
@@ -343,8 +323,8 @@
     <div class="container-fluid py-5" id="team">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Team</h6>
-                <h1 class="font-secondary display-4">Meet The Team</h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Instalaciones</h6>
+                <h1 class="font-secondary display-4">Conoce nuestras instalaciones</h1>
             </div>
             <div class="row justify-content-lg-start m-0 mb-4 pb-2 mb-sm-0 pb-sm-0">
                 <div class="col-lg-6 p-0">
@@ -504,36 +484,35 @@
     <div class="container-fluid py-5" id="contact">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
-                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Contact</h6>
-                <h1 class="font-secondary display-4">Get In Touch</h1>
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Contáctanos</h6>
+                <h1 class="font-secondary display-4">Envianos un Mensaje</h1>
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="remitente" placeholder="Nombre Completo" required="required" data-validation-required-message="Ingresa tu nombre" />
                                     <p class="help-block text-danger"></p>
                                 </div>
+
                                 <div class="col-sm-6 control-group">
-                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" id="correo" placeholder="Correo Electrónico" required="required" data-validation-required-message="Por favor ingrese su correo electrónico" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <input type="text" class="form-control bg-secondary border-0 py-4 px-3" id="asunto" placeholder="Asunto" required="required" data-validation-required-message="Por favor escriba el asunto" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="6" id="mensaje" placeholder="Mensaje" required="required" data-validation-required-message="Por favor escriba su mensaje"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" onclick="enviarCorreo()">Enviar Mensaje</button>
                             </div>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -632,7 +611,7 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body py-5 text-black">
+                <div class="modal-body py-5 px-2 text-black">
 
                     <video controls class="img-fluid">
                         <source src="http://plastimega.com.mx/public/img/fabrica.mp4" type="video/mp4" >
@@ -641,7 +620,6 @@
                     <hr>
                     <h3>Nuestra Historia: </h3>
                     <p class="font-weight-bold">Este es un texto de relleno que se puede sustituir con cualquir texo que guste .</p>
-                    <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
                     <p>Sit eos diam rebum amet stet sit lorem invidunt, kasd dolor ea dolores ut nonumy, sea est rebum dolore dolor. Lorem tempor tempor gubergren dolor dolor dolor. Kasd amet labore voluptua justo diam, dolore accusam duo est stet nonumy tempor dolores sadipscing duo. Stet at et nonumy erat et sed.</p>
                 </div>
             </div>
@@ -662,339 +640,8 @@
 
 
 
-    <!-- Modal caja 1 -->
-1    <div class="modal fade" id="puebla_3" tabindex="-1" role="dialog"          aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content text-center">
-
-                <div class="modal-header d-flex align-items-center">
-                    <img src="img/logol.png" class="img-fluid w-25" alt="">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <div class="modal-body ">
-
-                    <div class="row">
-                        <div class="col-12 text-center py-5">
-                            <img id="cajaImg" src="img/cajas_front/2.png" class="w-100" alt="">
-                        </div>
-                    </div>
-
-
-                    <h1>TARA CAMPO CUAPIAXTLA</h1>
-
-                    <div class="container mt-5 p-0 mx-0">
-                        <div class="row">
-                          <div class="col-xs-12 ">
-                            <nav>
-                              <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#puebla_3_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
-                                    <i class="fa fa-expand mx-2"></i>
-                                    Dimensiones
-                                </a>
-                                <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#puebla_3_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
-                                    <i class="fa fa-gear mx-2"></i>
-                                    Propiedades Mecanicas
-                                </a>
-                                <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#puebla_3_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
-                                    <i class="fa fa-info-circle mx-3"></i>
-                                    Especificaciones
-                                </a>
-                                <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#puebla_3_colores" role="tab" aria-controls="nav-about" aria-selected="false">
-                                    <i class="fa fa-pencil mx-3"></i>
-                                    Colores
-                                </a>
-                              </div>
-                            </nav>
-
-                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-
-                              <div class="tab-pane fade show active" id="puebla_3_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
-                                <div class="row">
-                                    <div class="col-12 mb-4">
-                                        <h3>
-                                            <i class="fa fa-expand mx-2"></i>
-                                            Dimensiones de la caja
-                                        </h3>
-                                    </div>
-                                    
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li>Ancho: 40cm </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li>Largo: 60cm </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li>Alto: 20cm </li></h4>
-                                    </div>
-                                </div>
-                              </div>
-
-                              <div class="tab-pane fade" id="puebla_3_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                <div class="row">
-                                    <div class="col-12 mb-4">
-                                        <h3>
-                                            <i class="fa fa-gear mx-2"></i>
-                                            Propiedades Mecánicas
-                                        </h3>
-                                    </div>
-                                    
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li class="p-0 m-0">Resistencia a la compresión.</li></h4>                                       
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Resistencia a la tracción. </li></h4> 
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Tenacidad. </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Flexibilidad. </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Resistencia Térmica. </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
-                                    </div>
-                                </div>
-                              </div>
-
-                              <div class="tab-pane fade" id="puebla_3_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
-
-                                <div class="col-12 mb-4">
-                                    <h3>
-                                        <i class="fa fa-info-circle mx-2"></i>
-                                        Especificaciones
-                                    </h3>
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Caja Deshechable.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Linea Agricola.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Peso: 0.779 Gr.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Capacidad: 20Kg.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Riesgo: Sin riesgo, producto NO toxico.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Aplicacion: Empaque para transportar verduras y vegetales.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Resistencia al impacto, peso, humedad y refrigeración.</li></h4>                                       
-                                </div>
-
-                              </div>
-
-                              
-                              <div class="tab-pane fade" id="puebla_3_colores" role="tabpanel" aria-labelledby="nav-about-tab">
-                                <div class="col-12 mb-4">
-                                    <h3>
-                                        <i class="fa fa-pencil mx-2"></i>
-                                        Colores
-                                    </h3>
-                                </div>
-                                
-                                <div class="col-12">
-                                    <div class="btn-group">
-                                        <button class="btn rounded-circle p-4" style="background:#41301D;" ></button>
-                                    </div>
-                                </div>
-
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                  </div>
-                </div>
-          </div>
-        </div>
-    </div>
-
-    <!-- Modal caja 1 -->
-
-
-    <!-- Modal caja 2 -->
-    <div class="modal fade" id="tara_cuapiaxtla" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-        aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content text-center">
-
-                <div class="modal-header d-flex align-items-center">
-                    <img src="img/logol.png" class="img-fluid w-25" alt="">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <div class="modal-body ">
-
-                    <div class="row">
-                        <div class="col-12 text-center py-5">
-                            <img id="cajaImg" src="img/cajas/1.png" class="w-100" alt="">
-                        </div>
-                    </div>
-
-
-                    <h1>TARA CAMPO CUAPIAXTLA</h1>
-
-                    <div class="container mt-5 p-0 mx-0">
-                        <div class="row">
-                          <div class="col-xs-12 ">
-                            <nav>
-                              <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#campo_cuapi_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
-                                    <i class="fa fa-expand mx-2"></i>
-                                    Dimensiones
-                                </a>
-                                <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#campo_cuapi_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
-                                    <i class="fa fa-gear mx-2"></i>
-                                    Propiedades Mecanicas
-                                </a>
-                                <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#campo_cuapi_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
-                                    <i class="fa fa-info-circle mx-3"></i>
-                                    Especificaciones
-                                </a>
-                                <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#campo_cuapi_colores" role="tab" aria-controls="nav-about" aria-selected="false">
-                                    <i class="fa fa-pencil mx-3"></i>
-                                    Colores
-                                </a>
-                              </div>
-                            </nav>
-
-                            <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-
-                              <div class="tab-pane fade show active" id="campo_cuapi_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
-                                <div class="row">
-                                    <div class="col-12 mb-4">
-                                        <h3>
-                                            <i class="fa fa-expand mx-2"></i>
-                                            Dimensiones de la caja
-                                        </h3>
-                                    </div>
-                                    
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li>Ancho: 34cm </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li>Largo: 50cm </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li>Alto: 28cm </li></h4>
-                                    </div>
-                                </div>
-                              </div>
-
-                              <div class="tab-pane fade" id="campo_cuapi_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                <div class="row">
-                                    <div class="col-12 mb-4">
-                                        <h3>
-                                            <i class="fa fa-gear mx-2"></i>
-                                            Propiedades Mecánicas
-                                        </h3>
-                                    </div>
-                                    
-                                    <div class="col-12 text-left mx-4">
-                                        <h4><li class="p-0 m-0">Resistencia a la compresión.</li></h4>                                       
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Resistencia a la tracción. </li></h4> 
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Tenacidad. </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Flexibilidad. </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Resistencia Térmica. </li></h4>
-                                    </div>
-                                    <div class="col-12 text-left mx-4">
-                                        <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
-                                    </div>
-                                </div>
-                              </div>
-
-                              <div class="tab-pane fade" id="campo_cuapi_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
-
-                                <div class="col-12 mb-4">
-                                    <h3>
-                                        <i class="fa fa-info-circle mx-2"></i>
-                                        Especificaciones
-                                    </h3>
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Caja Deshechable.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Linea Agricola.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Peso: 1.710Kg.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Capacidad: 20Kg.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Riesgo: Sin riesgo, producto NO toxico.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Aplicacion: Empaque para transportar verduras y vegetales.</li></h4>                                       
-                                </div>
-                                <div class="col-12 text-left mx-4">
-                                    <h4><li class="p-0 m-0">Resistencia al impacto, peso, humedad y refrigeración.</li></h4>                                       
-                                </div>
-
-                              </div>
-
-                              
-                              <div class="tab-pane fade" id="campo_cuapi_colores" role="tabpanel" aria-labelledby="nav-about-tab">
-                                <div class="col-12 mb-4">
-                                    <h3>
-                                        <i class="fa fa-pencil mx-2"></i>
-                                        Colores
-                                    </h3>
-                                </div>
-                                
-                                <div class="col-12">
-                                    <div class="btn-group">
-                                        <button class="btn rounded-circle p-4" style="background:#00336A;" onclick="cambiarImagen(1)"></button>
-                                        <button class="btn rounded-circle p-4" style="background:#18887C;" onclick="cambiarImagen(2)" ></button>
-                                        <button class="btn rounded-circle p-4" style="background:#CF3117;" onclick="cambiarImagen(3)" ></button>
-                                        <button class="btn rounded-circle p-4" style="background:#42697B;" onclick="cambiarImagen(4)" ></button>
-                                        <button class="btn rounded-circle p-4" style="background:#239B92;" onclick="cambiarImagen(5)" ></button>
-                                        <button class="btn rounded-circle p-4" style="background:#795938;" onclick="cambiarImagen(6)" ></button>
-                                        <button class="btn rounded-circle p-4" style="background:#CB9C0F;" onclick="cambiarImagen(7)" ></button>
-                                    </div>
-                                </div>
-
-                              </div>
-
-
-                            </div>
-                          
-                          </div>
-                        </div>
-                  </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal caja 2 -->
-
-
-
-    <!-- Modal 3 -->
-<div class="modal fade" id="tepeaca_2" tabindex="-1" role="dialog"          aria-labelledby="exampleModalLongTitle"
+<!-- Modal caja 1 -->
+<div class="modal fade" id="puebla_3" tabindex="-1" role="dialog"          aria-labelledby="exampleModalLongTitle"
     aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content text-center">
@@ -1010,40 +657,40 @@
 
                 <div class="row">
                     <div class="col-12 text-center py-5">
-                        <img id="cajaImg" src="img/cajas_front/3.png" class="w-100" alt="">
+                        <img id="cajaImg" src="img/cajas_front/2.png" class="w-100" alt="">
                     </div>
                 </div>
 
 
-                <h1>TARA CAMPO CUAPIAXTLA</h1>
+                <h1 class="text-uppercase">Puebla 3 - Deshechable</h1>
 
                 <div class="container mt-5 p-0 mx-0">
                     <div class="row">
-                      <div class="col-xs-12 ">
+                        <div class="col-xs-12 ">
                         <nav>
-                          <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
-                            <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#tepeaca_2_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
+                            <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#puebla_3_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
                                 <i class="fa fa-expand mx-2"></i>
                                 Dimensiones
                             </a>
-                            <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#tepeaca_2_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
+                            <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#puebla_3_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
                                 <i class="fa fa-gear mx-2"></i>
                                 Propiedades Mecanicas
                             </a>
-                            <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#tepeaca_2_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
+                            <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#puebla_3_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
                                 <i class="fa fa-info-circle mx-3"></i>
                                 Especificaciones
                             </a>
-                            <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#tepeaca_2_colores" role="tab" aria-controls="nav-about" aria-selected="false">
+                            <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#puebla_3_colores" role="tab" aria-controls="nav-about" aria-selected="false">
                                 <i class="fa fa-pencil mx-3"></i>
                                 Colores
                             </a>
-                          </div>
+                            </div>
                         </nav>
 
                         <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
 
-                          <div class="tab-pane fade show active" id="tepeaca_2_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="tab-pane fade show active" id="puebla_3_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
                             <div class="row">
                                 <div class="col-12 mb-4">
                                     <h3>
@@ -1062,9 +709,9 @@
                                     <h4><li>Alto: 20cm </li></h4>
                                 </div>
                             </div>
-                          </div>
+                            </div>
 
-                          <div class="tab-pane fade" id="tepeaca_2_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="tab-pane fade" id="puebla_3_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
                             <div class="row">
                                 <div class="col-12 mb-4">
                                     <h3>
@@ -1092,9 +739,9 @@
                                     <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
                                 </div>
                             </div>
-                          </div>
+                            </div>
 
-                          <div class="tab-pane fade" id="tepeaca_2_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="tab-pane fade" id="puebla_3_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
 
                             <div class="col-12 mb-4">
                                 <h3>
@@ -1103,31 +750,31 @@
                                 </h3>
                             </div>
                             <div class="col-12 text-left mx-4">
-                                <h4><li class="p-0 m-0">Caja Deshechable.</li></h4>                                       
+                                <h4>Caja Deshechable.</h4>                                       
                             </div>
                             <div class="col-12 text-left mx-4">
-                                <h4><li class="p-0 m-0">Linea Agricola.</li></h4>                                       
+                                <h4>Linea Agricola.</h4>                                       
                             </div>
                             <div class="col-12 text-left mx-4">
-                                <h4><li class="p-0 m-0">Peso: 0.779 Gr.</li></h4>                                       
+                                <h4><b><u>Peso: </u></b> 1.710Kg.</h4>                                       
                             </div>
                             <div class="col-12 text-left mx-4">
-                                <h4><li class="p-0 m-0">Capacidad: 20Kg.</li></h4>                                       
+                                <h4><b><u>Capacidad: </u></b> 20Kg.</h4>                                       
                             </div>
                             <div class="col-12 text-left mx-4">
-                                <h4><li class="p-0 m-0">Riesgo: Sin riesgo, producto NO toxico.</li></h4>                                       
+                                <h4> <b><u>Riesgo: </u></b>Sin riesgo, producto NO toxico.</h4>                                       
                             </div>
                             <div class="col-12 text-left mx-4">
-                                <h4><li class="p-0 m-0">Aplicacion: Empaque para transportar verduras y vegetales.</li></h4>                                       
+                                <h4><b> <u>Aplicacion: </u></b>Empaque para transportar verduras y vegetales.</h4>                                       
                             </div>
                             <div class="col-12 text-left mx-4">
-                                <h4><li class="p-0 m-0">Resistencia al impacto, peso, humedad y refrigeración.</li></h4>                                       
+                                <h4>Resistencia al impacto, peso, humedad y refrigeración.</h4>                                       
                             </div>
 
-                          </div>
+                            </div>
 
-                          
-                          <div class="tab-pane fade" id="tepeaca_2_colores" role="tabpanel" aria-labelledby="nav-about-tab">
+                            
+                            <div class="tab-pane fade" id="puebla_3_colores" role="tabpanel" aria-labelledby="nav-about-tab">
                             <div class="col-12 mb-4">
                                 <h3>
                                     <i class="fa fa-pencil mx-2"></i>
@@ -1141,17 +788,863 @@
                                 </div>
                             </div>
 
-                          </div>
+                            </div>
                         </div>
-                      </div>
+                        </div>
                     </div>
-              </div>
+                </div>
             </div>
-      </div>
+        </div>
     </div>
 </div>
-    <!-- Modal 3 -->
+<!-- Modal caja 1 -->
 
+
+<!-- Modal caja 2 -->
+<div class="modal fade" id="tara_cuapiaxtla" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content text-center">
+
+            <div class="modal-header d-flex align-items-center">
+                <img src="img/logol.png" class="img-fluid w-25" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body ">
+
+                <div class="row">
+                    <div class="col-12 text-center py-5">
+                        <img id="cajasImg" src="img/cajas/1.png" class="w-100" alt="">
+                    </div>
+                </div>
+
+
+                <h1>TARA CAMPO CUAPIAXTLA</h1>
+
+                <div class="container mt-5 p-0 mx-0">
+                    <div class="row">
+                        <div class="col-xs-12 ">
+                        <nav>
+                            <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#campo_cuapi_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <i class="fa fa-expand mx-2"></i>
+                                Dimensiones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#campo_cuapi_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <i class="fa fa-gear mx-2"></i>
+                                Propiedades Mecanicas
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#campo_cuapi_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
+                                <i class="fa fa-info-circle mx-3"></i>
+                                Especificaciones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#campo_cuapi_colores" role="tab" aria-controls="nav-about" aria-selected="false">
+                                <i class="fa fa-pencil mx-3"></i>
+                                Colores
+                            </a>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="campo_cuapi_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-expand mx-2"></i>
+                                        Dimensiones de la caja
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-12 text-left mx-4">
+                                    <h4><li>Ancho: 34cm </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4><li>Largo: 50cm </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4><li>Alto: 28cm </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="campo_cuapi_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-gear mx-2"></i>
+                                        Propiedades Mecánicas
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-12 text-left mx-4">
+                                    <h4><li class="p-0 m-0">Resistencia a la compresión.</li></h4>                                       
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia a la tracción. </li></h4> 
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Tenacidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Flexibilidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Térmica. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="campo_cuapi_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-info-circle mx-2"></i>
+                                    Especificaciones
+                                </h3>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Caja Deshechable.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Linea Agricola.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Peso: </u></b> 1.710Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Capacidad: </u></b> 20Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <b><u>Riesgo: </u></b>Sin riesgo, producto NO toxico.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b> <u>Aplicacion: </u></b>Empaque para transportar verduras y vegetales.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Resistencia al impacto, peso, humedad y refrigeración.</h4>                                       
+                            </div>
+
+                            </div>
+
+                            
+                            <div class="tab-pane fade" id="campo_cuapi_colores" role="tabpanel" aria-labelledby="nav-about-tab">
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-pencil mx-2"></i>
+                                    Colores
+                                </h3>
+                            </div>
+                            
+                            <div class="col-12 border p-5 bg-light">
+                                <div class="row justify-content-center">
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#00336A;" onclick="cambiarImagen(1)"></button>
+                                    </div>
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#18887C;" onclick="cambiarImagen(2)" ></button>
+                                    </div>
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#CF3117;" onclick="cambiarImagen(3)" ></button>
+                                    </div>
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#42697B;" onclick="cambiarImagen(4)" ></button>
+                                    </div>
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#239B92;" onclick="cambiarImagen(5)" ></button>
+                                    </div>
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#795938;" onclick="cambiarImagen(6)" ></button>
+                                    </div>
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#CB9C0F;" onclick="cambiarImagen(7)" ></button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            </div>
+
+
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal caja 2 -->
+
+
+
+<!-- Modal 3 -->
+<div class="modal fade" id="tepeaca_2" tabindex="-1" role="dialog"          aria-labelledby="exampleModalLongTitle"
+aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content text-center">
+
+        <div class="modal-header d-flex align-items-center">
+            <img src="img/logol.png" class="img-fluid w-25" alt="">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="modal-body ">
+
+            <div class="row">
+                <div class="col-12 text-center py-5">
+                    <img id="cajaImg" src="img/cajas_front/3.png" class="w-100" alt="">
+                </div>
+            </div>
+
+
+            <h1 class="text-uppercase">Tepeaca 2 - Deshechable</h1>
+
+            <div class="container mt-5 p-0 mx-0">
+                <div class="row">
+                    <div class="col-xs-12 ">
+                    <nav>
+                        <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#tepeaca_2_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
+                            <i class="fa fa-expand mx-2"></i>
+                            Dimensiones
+                        </a>
+                        <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#tepeaca_2_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
+                            <i class="fa fa-gear mx-2"></i>
+                            Propiedades Mecanicas
+                        </a>
+                        <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#tepeaca_2_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
+                            <i class="fa fa-info-circle mx-3"></i>
+                            Especificaciones
+                        </a>
+                        <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#tepeaca_2_colores" role="tab" aria-controls="nav-about" aria-selected="false">
+                            <i class="fa fa-pencil mx-3"></i>
+                            Colores
+                        </a>
+                        </div>
+                    </nav>
+
+                    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+                        <div class="tab-pane fade show active" id="tepeaca_2_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-expand mx-2"></i>
+                                    Dimensiones de la caja
+                                </h3>
+                            </div>
+                            
+                            <div class="col-12 text-left mx-4">
+                                <h4><li>Ancho: 40cm </li></h4>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><li>Largo: 60cm </li></h4>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><li>Alto: 20cm </li></h4>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tepeaca_2_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <div class="row">
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-gear mx-2"></i>
+                                    Propiedades Mecánicas
+                                </h3>
+                            </div>
+                            
+                            <div class="col-12 text-left mx-4">
+                                <h4><li class="p-0 m-0">Resistencia a la compresión.</li></h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <li class="p-0 m-0"> Resistencia a la tracción. </li></h4> 
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <li class="p-0 m-0"> Tenacidad. </li></h4>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <li class="p-0 m-0"> Flexibilidad. </li></h4>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <li class="p-0 m-0"> Resistencia Térmica. </li></h4>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tepeaca_2_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                        <div class="col-12 mb-4">
+                            <h3>
+                                <i class="fa fa-info-circle mx-2"></i>
+                                Especificaciones
+                            </h3>
+                        </div>
+                        <div class="col-12 text-left mx-4">
+                            <h4>Caja Deshechable.</h4>                                       
+                        </div>
+                        <div class="col-12 text-left mx-4">
+                            <h4>Linea Agricola.</h4>                                       
+                        </div>
+                        <div class="col-12 text-left mx-4">
+                            <h4><b><u>Peso: </u></b> 1.710Kg.</h4>                                       
+                        </div>
+                        <div class="col-12 text-left mx-4">
+                            <h4><b><u>Capacidad: </u></b> 20Kg.</h4>                                       
+                        </div>
+                        <div class="col-12 text-left mx-4">
+                            <h4> <b><u>Riesgo: </u></b>Sin riesgo, producto NO toxico.</h4>                                       
+                        </div>
+                        <div class="col-12 text-left mx-4">
+                            <h4><b> <u>Aplicacion: </u></b>Empaque para transportar verduras y vegetales.</h4>                                       
+                        </div>
+                        <div class="col-12 text-left mx-4">
+                            <h4>Resistencia al impacto, peso, humedad y refrigeración.</h4>                                       
+                        </div>
+
+                        </div>
+
+                        
+                        <div class="tab-pane fade" id="tepeaca_2_colores" role="tabpanel" aria-labelledby="nav-about-tab">
+                        <div class="col-12 mb-4">
+                            <h3>
+                                <i class="fa fa-pencil mx-2"></i>
+                                Colores
+                            </h3>
+                        </div>
+                        
+                        <div class="col-12">
+                            <div class="btn-group">
+                                <button class="btn rounded-circle p-4" style="background:#41301D;" ></button>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal 3 -->
+
+
+<!-- Modal caja 2 -->
+<div class="modal fade" id="reyes_23kg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content text-center">
+
+            <div class="modal-header d-flex align-items-center">
+                <img src="img/logol.png" class="img-fluid w-25" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body ">
+
+                <div class="row">
+                    <div class="col-12 text-center py-5">
+                        <img id="cajasImg" src="img/cajas_front/4.png" class="w-100" alt="">
+                    </div>
+                </div>
+
+
+                <h1 class="text-uppercase">Caja 23 KG Los Reyes de Juarez</h1>
+
+                <div class="container mt-5 p-0 mx-0">
+                    <div class="row">
+                        <div class="col-xs-12 ">
+                        <nav>
+                            <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#reyes_23kg_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <i class="fa fa-expand mx-2"></i>
+                                Dimensiones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#reyes_23kg_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <i class="fa fa-gear mx-2"></i>
+                                Propiedades Mecanicas
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#reyes_23kg_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
+                                <i class="fa fa-info-circle mx-3"></i>
+                                Especificaciones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#reyes_23kg_colores" role="tab" aria-controls="nav-about" aria-selected="false">
+                                <i class="fa fa-pencil mx-3"></i>
+                                Colores
+                            </a>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="reyes_23kg_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-expand mx-2"></i>
+                                        Dimensiones de la caja
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Ancho: 34cm </li></h4>
+                                </div>
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Largo: 50.5cm </li></h4>
+                                </div>
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Alto: 28cm </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="reyes_23kg_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-gear mx-2"></i>
+                                        Propiedades Mecánicas
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-12 text-left mx-4">
+                                    <h4><li class="p-0 m-0">Resistencia a la compresión.</li></h4>                                       
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia a la tracción. </li></h4> 
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Tenacidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Flexibilidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Térmica. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="reyes_23kg_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-info-circle mx-2"></i>
+                                    Especificaciones
+                                </h3>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Caja Deshechable.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Linea Agricola.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Peso: </u></b> 1.710Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Capacidad: </u></b> 20Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <b><u>Riesgo: </u></b>Sin riesgo, producto NO toxico.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b> <u>Aplicacion: </u></b>Empaque para transportar verduras y vegetales.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Resistencia al impacto, peso, humedad y refrigeración.</h4>                                       
+                            </div>
+
+                            </div>
+
+                            
+                            <div class="tab-pane fade" id="reyes_23kg_colores" role="tabpanel" aria-labelledby="nav-about-tab">
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-pencil mx-2"></i>
+                                    Colores
+                                </h3>
+                            </div>
+                            
+                            <div class="col-12 border p-5 bg-light">
+                                <div class="row justify-content-center">
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#453A24;" onclick="cambiarImagen(1)"></button>
+                                    </div>
+      
+                                </div>
+
+                            </div>
+
+                            </div>
+
+
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal caja 2 -->
+
+
+<!-- Tara Huixcolotla -->
+<div class="modal fade" id="tara_huixcolotla" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content text-center">
+
+            <div class="modal-header d-flex align-items-center">
+                <img src="img/logol.png" class="img-fluid w-25" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body ">
+
+                <div class="row">
+                    <div class="col-12 text-center py-5">
+                        <img id="cajasImg" src="img/cajas_front/5.png" class="w-100" alt="">
+                    </div>
+                </div>
+
+
+                <h1 class="text-uppercase">Tara 25 KG Huxcolotla</h1>
+
+                <div class="container mt-5 p-0 mx-0">
+                    <div class="row">
+                        <div class="col-xs-12 ">
+                        <nav>
+                            <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#tara_huixcolotla_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <i class="fa fa-expand mx-2"></i>
+                                Dimensiones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#tara_huixcolotla_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <i class="fa fa-gear mx-2"></i>
+                                Propiedades Mecanicas
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#tara_huixcolotla_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
+                                <i class="fa fa-info-circle mx-3"></i>
+                                Especificaciones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#tara_huixcolotla_colores" role="tab" aria-controls="nav-about" aria-selected="false">
+                                <i class="fa fa-pencil mx-3"></i>
+                                Colores
+                            </a>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="tara_huixcolotla_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-expand mx-2"></i>
+                                        Dimensiones de la caja
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Ancho: 34cm </li></h4>
+                                </div>
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Largo: 50.5cm </li></h4>
+                                </div>
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Alto: 28cm </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tara_huixcolotla_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-gear mx-2"></i>
+                                        Propiedades Mecánicas
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-12 text-left mx-4">
+                                    <h4><li class="p-0 m-0">Resistencia a la compresión.</li></h4>                                       
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia a la tracción. </li></h4> 
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Tenacidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Flexibilidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Térmica. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tara_huixcolotla_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-info-circle mx-2"></i>
+                                    Especificaciones
+                                </h3>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Caja Deshechable.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Linea Agricola.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Peso: </u></b> 1.710Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Capacidad: </u></b> 20Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <b><u>Riesgo: </u></b>Sin riesgo, producto NO toxico.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b> <u>Aplicacion: </u></b>Empaque para transportar verduras y vegetales.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Resistencia al impacto, peso, humedad y refrigeración.</h4>                                       
+                            </div>
+
+                            </div>
+
+                            
+                            <div class="tab-pane fade" id="tara_huixcolotla_colores" role="tabpanel" aria-labelledby="nav-about-tab">
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-pencil mx-2"></i>
+                                    Colores
+                                </h3>
+                            </div>
+                            
+                            <div class="col-12 border p-5 bg-light">
+                                <div class="row justify-content-center">
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#453A24;" onclick="cambiarImagen(1)"></button>
+                                    </div>
+      
+                                </div>
+
+                            </div>
+
+                            </div>
+
+
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Tara Huixcolotla -->
+
+
+
+<!-- Miguel negrete -->
+<div class="modal fade" id="miguel_negrete_deshechable" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content text-center">
+
+            <div class="modal-header d-flex align-items-center">
+                <img src="img/logol.png" class="img-fluid w-25" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body ">
+
+                <div class="row">
+                    <div class="col-12 text-center py-5">
+                        <img id="cajasImg" src="img/cajas_front/6.png" class="w-100" alt="">
+                    </div>
+                </div>
+
+
+                <h1 class="text-uppercase">Miguel Negrete 23 KG</h1>
+
+                <div class="container mt-5 p-0 mx-0">
+                    <div class="row">
+                        <div class="col-xs-12 ">
+                        <nav>
+                            <div class="nav nav-tabs nav-fill w-100" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active btn-dark" id="nav-home-tab" data-toggle="tab" href="#miguel_negrete_deshechable_dimensiones" role="tab" aria-controls="nav-home" aria-selected="true">
+                                <i class="fa fa-expand mx-2"></i>
+                                Dimensiones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-profile-tab" data-toggle="tab" href="#miguel_negrete_deshechable_propiedades" role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <i class="fa fa-gear mx-2"></i>
+                                Propiedades Mecanicas
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-contact-tab" data-toggle="tab" href="#miguel_negrete_deshechable_especificaciones" role="tab" aria-controls="nav-contact" aria-selected="false">
+                                <i class="fa fa-info-circle mx-3"></i>
+                                Especificaciones
+                            </a>
+                            <a class="nav-item nav-link btn-dark" id="nav-about-tab" data-toggle="tab" href="#miguel_negrete_deshechable_colores" role="tab" aria-controls="nav-about" aria-selected="false">
+                                <i class="fa fa-pencil mx-3"></i>
+                                Colores
+                            </a>
+                            </div>
+                        </nav>
+
+                        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
+                            <div class="tab-pane fade show active" id="miguel_negrete_deshechable_dimensiones" role="tabpanel" aria-labelledby="nav-home-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-expand mx-2"></i>
+                                        Dimensiones de la caja
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Ancho: 34cm </li></h4>
+                                </div>
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Largo: 50.5cm </li></h4>
+                                </div>
+                                <div class="col-8 text-left mx-4">
+                                    <h4><li>Alto: 28cm </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="miguel_negrete_deshechable_propiedades" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <div class="col-12 mb-4">
+                                    <h3>
+                                        <i class="fa fa-gear mx-2"></i>
+                                        Propiedades Mecánicas
+                                    </h3>
+                                </div>
+                                
+                                <div class="col-12 text-left mx-4">
+                                    <h4><li class="p-0 m-0">Resistencia a la compresión.</li></h4>                                       
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia a la tracción. </li></h4> 
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Tenacidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Flexibilidad. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Térmica. </li></h4>
+                                </div>
+                                <div class="col-12 text-left mx-4">
+                                    <h4> <li class="p-0 m-0"> Resistencia Química. </li></h4>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="miguel_negrete_deshechable_especificaciones" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-info-circle mx-2"></i>
+                                    Especificaciones
+                                </h3>
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Caja Deshechable.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Linea Agricola.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Peso: </u></b> 1.710Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b><u>Capacidad: </u></b> 20Kg.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4> <b><u>Riesgo: </u></b>Sin riesgo, producto NO toxico.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4><b> <u>Aplicacion: </u></b>Empaque para transportar verduras y vegetales.</h4>                                       
+                            </div>
+                            <div class="col-12 text-left mx-4">
+                                <h4>Resistencia al impacto, peso, humedad y refrigeración.</h4>                                       
+                            </div>
+
+                            </div>
+
+                            
+                            <div class="tab-pane fade" id="miguel_negrete_deshechable_colores" role="tabpanel" aria-labelledby="nav-about-tab">
+                            <div class="col-12 mb-4">
+                                <h3>
+                                    <i class="fa fa-pencil mx-2"></i>
+                                    Colores
+                                </h3>
+                            </div>
+                            
+                            <div class="col-12 border p-5 bg-light">
+                                <div class="row justify-content-center">
+                                    <div class="col-3 col-md-4 col-lg-3 mt-1 mx-0">
+                                        <button class="btn btn-sm rounded-circle p-4" style="background:#453A24;" onclick="cambiarImagen(1)"></button>
+                                    </div>
+      
+                                </div>
+
+                            </div>
+
+                            </div>
+
+
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Miguel negrete -->
 
 
 
@@ -1163,16 +1656,22 @@
 
 
 
+<!-- social buttons -->
+<div class="social-buttons">
+    <a href="https://www.facebook.com/PlastimegaMX/" class="facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+    <!-- <a href="https://twitter.com" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> -->
+    <a href="https://www.instagram.com/plastimegamx/?hl=es" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="https://wa.me/2491725430" class="whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a>
+</div>
 
 
 
 
+<!-- Scroll to Bottom -->
+<i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -1184,11 +1683,13 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
 
+
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+    <!-- <script src="mail/contact.js"></script> -->
 
     <!-- Template Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
