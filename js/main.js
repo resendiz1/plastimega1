@@ -137,6 +137,7 @@ function enviarCorreo(){
     let $asunto = document.getElementById('asunto').value;
     let $mensaje = document.getElementById('mensaje').value;
     let $correo = document.getElementById('correo').value;
+    let $error = document.getElementById('error');
 
 if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
 
@@ -155,12 +156,15 @@ if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
     emailjs.send("service_19kp3gr", "template_9mc060d", params)
         .then(response => {
 
-            $remitente = '';
-            $asunto = '';
-            $mensaje = '';
-            $correo = '';
+        //mandando el msj de 
+        
+        //Reseteando los input
+        document.getElementById('remitente') = '';
+        document.getElementById('asunto') = '';
+        document.getElementById('mensaje') = '';
+        document.getElementById('correo')='';
+        
 
-            alert('Se envio correctamente el correo');
 
 
         }, error => {
@@ -172,7 +176,7 @@ if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
   }
   
   else{
-    alert('Se tienen que llenar todos los campos');
+    $error.classList.remove('d-none');
   }
 
 }
@@ -184,25 +188,7 @@ if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
 
 
 
-// video en el carousel
-document.addEventListener("DOMContentLoaded", function () {
 
-    const video = document.getElementById("videoItem");
-    const btnToggleSound = document.getElementById("toggleSoundBtn");
-
-    btnToggleSound.addEventListener("click",  (e) => {
-        e.stopImmediatePropagation();
-        e.preventDefault();
-        if (video.muted) {
-            video.muted = false;
-            btnToggleSound.textContent = "🔊"; // Cambia a icono de sonido activado
-        } else {
-            video.muted = true;
-            btnToggleSound.textContent = "🔇"; // Cambia a icono de silencio
-        }
-    });
-});
-// video en el carousel
 
 
 
