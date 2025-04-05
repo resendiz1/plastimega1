@@ -138,6 +138,7 @@ function enviarCorreo(){
     let $mensaje = document.getElementById('mensaje').value;
     let $correo = document.getElementById('correo').value;
     let $error = document.getElementById('error');
+    let $success = document.getElementById('success');
 
 if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
 
@@ -158,11 +159,17 @@ if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
 
         //mandando el msj de 
         
+    $success.classList.remove('d-none');
+
+    setTimeout(()=>{
+        $success.classList.add('d-none')
+    },4000)
+        
         //Reseteando los input
-        document.getElementById('remitente') = '';
-        document.getElementById('asunto') = '';
-        document.getElementById('mensaje') = '';
-        document.getElementById('correo')='';
+        document.getElementById('remitente').value  = '';
+        document.getElementById('asunto').value  = '';
+        document.getElementById('mensaje').value  = '';
+        document.getElementById('correo').value ='';
         
 
 
@@ -176,7 +183,13 @@ if($remitente !='' || $asunto != '' || $mensaje != '' || $correo != '' ){
   }
   
   else{
+
     $error.classList.remove('d-none');
+
+    setTimeout(()=>{
+        $error.classList.add('d-none')
+    },4000)
+
   }
 
 }
